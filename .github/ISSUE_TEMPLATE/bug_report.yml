@@ -1,0 +1,37 @@
+name: 问题反馈
+description: 反馈使用中遇到的问题
+title: "[反馈] "
+labels: ["bug"]
+body:
+  - type: input
+    id: video_url
+    attributes:
+      label: YouTube 视频地址
+      description: 请粘贴出问题的 YouTube 视频链接
+      placeholder: https://www.youtube.com/watch?v=...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 请描述你遇到的问题
+      placeholder: 例如：字幕没有显示 / 翻译不准确 / 插件报错...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 插件版本
+      description: 在 chrome://extensions 页面可以看到版本号
+      placeholder: 例如 1.8.9
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器
+      description: 你使用的浏览器和版本
+      placeholder: 例如 Chrome 131
+    validations:
+      required: false
