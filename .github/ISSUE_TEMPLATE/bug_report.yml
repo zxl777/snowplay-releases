@@ -19,19 +19,12 @@ body:
       placeholder: 例如：字幕没有显示 / 翻译不准确 / 插件报错...
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: version
     attributes:
-      label: 插件版本
-      description: 在 chrome://extensions 页面可以看到版本号
-      placeholder: 例如 1.8.9
+      label: 是否最新测试版
+      options:
+        - 确认是最新测试版
+        - 不太确认
     validations:
-      required: false
-  - type: input
-    id: browser
-    attributes:
-      label: 浏览器
-      description: 你使用的浏览器和版本
-      placeholder: 例如 Chrome 131
-    validations:
-      required: false
+      required: true
