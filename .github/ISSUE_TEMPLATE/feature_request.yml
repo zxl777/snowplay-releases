@@ -1,0 +1,21 @@
+name: 新功能需求
+description: 提出你想要的新功能，让大家投票
+title: "[需求] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: 功能描述
+      description: 你希望插件增加什么功能？
+      placeholder: 例如：支持日语字幕翻译 / 增加字幕字体大小调节...
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 使用场景
+      description: 这个功能在什么场景下对你有帮助？
+      placeholder: 例如：我经常看日语视频，希望也能有双语字幕...
+    validations:
+      required: false
