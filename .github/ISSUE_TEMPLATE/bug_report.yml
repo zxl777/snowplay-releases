@@ -23,9 +23,9 @@ body:
     id: version
     attributes:
       label: 插件版本确认
-      description: "当前最新测试版：v1.8.9。请在 chrome://extensions/?id=dhnnaoekbmgafnpfejifanamaleffdla 查看你的版本号"
+      description: "当前最新测试版：v1.8.10。请在 chrome://extensions/?id=dhnnaoekbmgafnpfejifanamaleffdla 查看你的版本号"
       options:
-        - 确认是最新版 v1.8.9
+        - 确认是最新版 v1.8.10
         - 不是最新版 / 不确定
     validations:
       required: true
