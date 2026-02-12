@@ -1,0 +1,26 @@
+name: 卸载反馈
+description: 告诉我们为什么卸载，帮助我们改进
+title: "[卸载] "
+labels: ["uninstall"]
+body:
+  - type: dropdown
+    id: reason
+    attributes:
+      label: 卸载原因
+      options:
+        - 用不上 / 不需要了
+        - 功能不满足需求
+        - 影响浏览器性能
+        - 字幕显示有问题
+        - 翻译质量不好
+        - 界面不好用
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 补充说明
+      description: 如果愿意，请告诉我们更多细节，帮助我们改进
+      placeholder: 可选填写...
+    validations:
+      required: false
