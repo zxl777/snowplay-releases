@@ -18,15 +18,15 @@
 
 ## 下载安装
 
-内测版 Chrome 扩展请前往 [Releases](https://github.com/zxl777/snowplay-releases/releases) 页面下载 `.crx` 文件，按照说明手动安装。
+内测版 Chrome 扩展请前往 [Releases](https://github.com/zxl777/snowplay-releases/releases) 页面下载最新版本的 `.zip` 文件，按以下步骤手动安装：
 
-## 使用方法
-
-1. 从 Releases 页面下载最新版本的 `.crx` 文件
-2. 打开 Chrome 浏览器，进入 `chrome://extensions/`
-3. 开启右上角「开发者模式」
-4. 将 `.crx` 文件拖入页面完成安装
-5. 打开任意 YouTube 视频，点击扩展图标即可启用双语字幕
+1. 下载 Releases 页面中的 `.zip` 文件
+2. 将 zip 文件**解压**到本地文件夹
+3. 打开 Chrome 浏览器，进入 `chrome://extensions/`
+4. 如果已有旧版「雪球双语字幕」，点击开关将其**关闭**
+5. 右上角开启「开发者模式」
+6. 点击「加载已解压的扩展程序」，选择刚才解压的文件夹
+7. 完成！打开任意 YouTube 视频即可使用双语字幕
 
 ## 反馈与支持
 
